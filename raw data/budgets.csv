@@ -1,0 +1,15 @@
+budget_id,company_id,department,year,month,allocated_budget,spent_budget,currency
+301,1,Technology,2024,1,5000,4200,EUR
+302,1,Finance,2024,1,2000,1800,EUR
+303,1,Technology,2024,2,5000,5800,EUR
+304,2,Operations,2024,1,8000,7500,EUR
+305,2,HR,2024,1,3000,2100,EUR
+306,2,Operations,2024,2,8000,8900,EUR
+307,3,Marketing,2024,1,4000,3750,EUR
+308,3,Sales,2024,1,3500,3200,EUR
+309,3,Marketing,2024,2,4000,4800,EUR
+310,4,Healthcare,2024,1,12000,11500,EUR
+311,4,Healthcare,2024,2,12000,10800,EUR
+312,5,Food & Beverage,2024,1,6000,6700,EUR
+313,6,Operations,2024,1,7000,6200,EUR
+314,6,Operations,2024,2,7000,7100,EUR
