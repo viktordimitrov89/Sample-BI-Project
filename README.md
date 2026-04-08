@@ -154,12 +154,12 @@ Sample-BI-Project/
 │   └── date_dim.csv
 │
 ├── sql/                    # SQL queries (one per business question)
-│   ├── Qn1_top_spending_companies.sql
-│   ├── Qn2_month_over_month.sql
-│   ├── Qn3_budget_status.sql
-│   ├── Qn4_declined_transactions.sql
-│   ├── Qn5_top_employee.sql
-│   └── Qn6_above_average.sql
+│   ├── Question1_top_spending_companies.sql
+│   ├── Question2_month_over_month.sql
+│   ├── Question3_budget_status.sql
+│   ├── Question4_declined_transactions.sql
+│   ├── Question5_top_employee.sql
+│   └── Question6_above_average.sql
 │
 └── README.md
 ```
