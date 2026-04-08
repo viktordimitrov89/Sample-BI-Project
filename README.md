@@ -33,18 +33,18 @@ The project uses 7 CSV files simulating a fintech database:
 
 | # | Question | SQL Query | Tableau Sheet |
 |---|---|---|---|
-| Q1 | Which companies spend the most? | `Q1_top_spending_companies.sql` | Top Spending Companies |
-| Q2 | How does spending change month over month? | `Q2_month_over_month.sql` | Month-over-Month Spending |
-| Q3 | Which companies and departments exceed their budget? | `Q3_budget_status.sql` | Budget Status Heatmap |
-| Q4 | Which employees have declined transactions and where? | `Q4_declined_transactions.sql` | Declined Transactions Heatmap |
-| Q5 | Which employee submits the most expense reports? | `Q5_top_employee.sql` | Top Employee Lollipop Chart |
-| Q6 | Which employees have above-average expense amounts? | `Q6_above_average.sql` | Above Average Bubble Chart |
+| Qn1 | Which companies spend the most? | `Q1_top_spending_companies.sql` | Top Spending Companies |
+| Qn2 | How does spending change month over month? | `Q2_month_over_month.sql` | Month-over-Month Spending |
+| Qn3 | Which companies and departments exceed their budget? | `Q3_budget_status.sql` | Budget Status Heatmap |
+| Qn4 | Which employees have declined transactions and where? | `Q4_declined_transactions.sql` | Declined Transactions Heatmap |
+| Qn5 | Which employee submits the most expense reports? | `Q5_top_employee.sql` | Top Employee Lollipop Chart |
+| Qn6 | Which employees have above-average expense amounts? | `Q6_above_average.sql` | Above Average Bubble Chart |
 
 ---
 
 ## 🔍 SQL Highlights
 
-### Q2 — Month-over-Month Spending (Window Function)
+### Qn2 — Month-over-Month Spending (Window Function)
 ```sql
 SELECT
     company_name,
@@ -71,7 +71,7 @@ FROM (
 WHERE prev_amount IS NOT NULL;
 ```
 
-### Q6 — Above Average Expense Amount (Subquery)
+### Qn6 — Above Average Expense Amount (Subquery)
 ```sql
 SELECT
     e.name,
@@ -94,9 +94,9 @@ HAVING ROUND(AVG(ex.amount), 2) > (
 Answers the question: *"How are our client companies performing financially?"*
 
 **Sheets included:**
-- 📊 **Q1 — Top Spending Companies** (Horizontal Bar Chart)
-- 📈 **Q2 — Month-over-Month Spending** (Multi-line Chart with MoM Tooltip)
-- 🟥 **Q3 — Budget Status by Company & Department** (Heatmap)
+- 📊 **Qn1 — Top Spending Companies** (Horizontal Bar Chart)
+- 📈 **Qn2 — Month-over-Month Spending** (Multi-line Chart with MoM Tooltip)
+- 🟥 **Qn3 — Budget Status by Company & Department** (Heatmap)
 
 **KPI Cards:**
 | KPI | Value | Color |
@@ -112,9 +112,9 @@ Answers the question: *"How are our client companies performing financially?"*
 Answers the question: *"Which employees pose a financial risk or stand out in spend behaviour?"*
 
 **Sheets included:**
-- 🟦 **Q4 — Declined Transactions** (Heatmap by Company & Employee)
-- 🎯 **Q5 — Top Employee by Expense Reports** (Lollipop Chart)
-- 🫧 **Q6 — Above Average Expense Amount** (Bubble Chart)
+- 🟦 **Qn4 — Declined Transactions** (Heatmap by Company & Employee)
+- 🎯 **Qn5 — Top Employee by Expense Reports** (Lollipop Chart)
+- 🫧 **Qn6 — Above Average Expense Amount** (Bubble Chart)
 
 **KPI Cards:**
 | KPI | Value | Color |
@@ -154,12 +154,12 @@ Sample-BI-Project/
 │   └── date_dim.csv
 │
 ├── sql/                    # SQL queries (one per business question)
-│   ├── Q1_top_spending_companies.sql
-│   ├── Q2_month_over_month.sql
-│   ├── Q3_budget_status.sql
-│   ├── Q4_declined_transactions.sql
-│   ├── Q5_top_employee.sql
-│   └── Q6_above_average.sql
+│   ├── Qn1_top_spending_companies.sql
+│   ├── Qn2_month_over_month.sql
+│   ├── Qn3_budget_status.sql
+│   ├── Qn4_declined_transactions.sql
+│   ├── Qn5_top_employee.sql
+│   └── Qn6_above_average.sql
 │
 └── README.md
 ```
