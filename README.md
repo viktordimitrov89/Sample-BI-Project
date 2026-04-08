@@ -169,8 +169,8 @@ Sample-BI-Project/
 ## 🔗 Live Dashboard
 
 📌 View the interactive Tableau dashboards on **Tableau Public**:
-> https://public.tableau.com/app/profile/viktor.dimitrov/viz/BI-SampleProject/PayhawkBISampleProject-CompanyFinancialOverview?publish=yes
-> https://public.tableau.com/app/profile/viktor.dimitrov/viz/BI-SampleProject/PayhawkBISampleProject-EmployeeTransactionAnalysis?publish=yes
+> [Dashboard 1: Company Financial Overview](https://public.tableau.com/app/profile/viktor.dimitrov/viz/BI-SampleProject/PayhawkBISampleProject-CompanyFinancialOverview)
+> [Dashboard 2: Employee & Transaction Analysis](https://public.tableau.com/app/profile/viktor.dimitrov/viz/BI-SampleProject/PayhawkBISampleProject-EmployeeTransactionAnalysis)
 
 
 ---
