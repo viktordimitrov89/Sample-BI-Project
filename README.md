@@ -114,7 +114,7 @@ Answers the question: *"Which employees pose a financial risk or stand out in sp
 **Sheets included:**
 - 🟦 **Qn4 — Declined Transactions** (Heatmap by Company & Employee)
 - 🎯 **Qn5 — Top Employee by Expense Reports** (Lollipop Chart)
-- 🫧 **Qn6 — Above Average Expense Amount** (Bubble Chart)
+- 💰 **Qn6 — Above Average Expense Amount** (Bubble Chart)
 
 **KPI Cards:**
 | KPI | Value | Color |
