@@ -124,7 +124,7 @@ Answers the question: *"Which employees pose a financial risk or stand out in sp
 
 **Interactivity:**
 - 🔵 **Filter Action** — Click a bubble in Q6 → filters Q4 and Q5 for that employee
-- 🟡 **Highlight Action** — Hover over employee in Q5 → highlights them in Q4
+- 🟡 **Highlight Action** — Hover over bubble in Q6 → highlights them in Q5 and Q6
 
 ---
 
