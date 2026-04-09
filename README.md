@@ -1,4 +1,4 @@
-# 💳 Payhawk BI Sample Project
+# 💳 BI Sample Project
 > Financial spend analysis using SQL and Tableau, built on simulated fintech data.
 
 ![SQL](https://img.shields.io/badge/SQL-SQLite-blue) ![Tableau](https://img.shields.io/badge/Tableau-Public-orange) ![Status](https://img.shields.io/badge/Status-Complete-green)
