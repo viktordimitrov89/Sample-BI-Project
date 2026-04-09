@@ -7,7 +7,7 @@
 
 ## 📌 Project Overview
 
-This project simulates a real-world BI analyst workflow at a fintech company similar to **Payhawk** — a corporate spend management platform. The goal is to answer key business questions around company spending, budget compliance, employee expense behaviour, and transaction failures using **SQL** for data preparation and **Tableau** for visual analytics.
+This project simulates a real-world BI analyst workflow at a fintech company — a corporate spend management platform. The goal is to answer key business questions around company spending, budget compliance, employee expense behaviour, and transaction failures using **SQL** for data preparation and **Tableau** for visual analytics.
 
 All data is **synthetically generated** and does not represent any real individuals or companies.
 
